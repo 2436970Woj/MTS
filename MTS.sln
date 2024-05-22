@@ -4,12 +4,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTS", "MTS\MTS.csproj", "{92902831-A6C0-4B3E-9818-4B6395870FDD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7D3F1D05-7E6C-4432-8CD0-BC4648E87E07} = {7D3F1D05-7E6C-4432-8CD0-BC4648E87E07}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{7D3F1D05-7E6C-4432-8CD0-BC4648E87E07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{7D3F1D05-7E6C-4432-8CD0-BC4648E87E07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{0C5807DA-D70B-4499-BCC7-51853A8046D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{0C5807DA-D70B-4499-BCC7-51853A8046D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{54DECDC8-C9B1-4C63-9D22-3967934DF49A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{54DECDC8-C9B1-4C63-9D22-3967934DF49A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
